@@ -1,3 +1,8 @@
+
+body {
+margin-top: 200px;
+}
+
 html, body {
  background-color: #000;   
 }
@@ -5,6 +10,7 @@ html, body {
 body {
 position: relative; 
 }
+ /* margin-top: 281.4px; */
 
 #container {
 position: relative;
@@ -14,14 +20,16 @@ width: 50%;
 margin: 0 auto;
 padding: 0px;
 resize: both;
-margin-top: 10%;
+
 }
 
 #space-jam { 
-margin-top: 22%;
+display: flex;
+align-items: center;
+justify-content: center;
 color: white;
 width: 100%;
-height: 420px;
+height: 500px;
 position: absolute;
 text-align: center;
 
